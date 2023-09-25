@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #222222;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Home page */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn-block {
+  display: block;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #d3001d;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-block:hover {
+  background-color: #171717;
+  color: #fff;
+}
+
+/* Register page */
+
+.form {
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px #222222;
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+/* logout button */
+
+.btn-logout {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #d3001d;
+  color: #fff;
+  size: 1rem;
+  font-weight: 700;
+}
+
+/* Back reverse button */
+
+.btn-reverse {
+  display: block;
+  width: 80px;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin: 20px 0px 0px 20px;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #d3001d;
+  color: #fff;
+  size: 1rem;
+  font-weight: 700;
+}
+
+/* appointment details page */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appointment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.appointment > span {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.btn-sm {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  padding: 0px;
+  margin: 5px;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color: #222222;
+  text-align: center;
+  border: solid 1px #222222;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.status-new {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  justify-content: center;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.appointment-page {
+  background-color: #f9f9f9;
+  padding: 5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-header {
+  background-color: #e0e0e0;
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointment-header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.appointment-header h2 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment-header .status-new {
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.appointment-desc > p {
+  border-radius: 12px;
+  background-color: aliceblue;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.btn-danger {
+  margin-top: 20px;
+  border-radius: 12px;
+}
